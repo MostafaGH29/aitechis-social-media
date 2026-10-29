@@ -1,0 +1,25 @@
+AITECHIS November 2026
+
+2026-11/
+├── calendar/
+│   └── AITECHIS_November_2026_Calendar_CORRECTED.xlsx
+├── assets/
+│   ├── ASSET_NAMING_RULES.md
+│   ├── feed/
+│   │   ├── N01/
+│   │   ├── N02/
+│   │   ├── ...
+│   │   └── N12/
+│   └── stories/
+│       ├── NS01/
+│       ├── NS02/
+│       ├── ...
+│       └── NS21/
+├── reports/
+└── archive/
+
+Root:
+- CLAUDE.md
+- MASTER_EXECUTION_PROMPT.txt
+- README_SETUP.md
+- BUFFER_CHANNEL_MAP.csv

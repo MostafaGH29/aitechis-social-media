@@ -1,0 +1,94 @@
+AITECHIS — NOVEMBER 2026 BUFFER EXECUTION PROMPT
+
+Work only inside this AITECHIS project folder.
+
+Read:
+1. CLAUDE.md
+2. 2026-11/calendar/AITECHIS_November_2026_Calendar_CORRECTED.xlsx
+3. all Feed folders under 2026-11/assets/feed/
+4. all Story folders under 2026-11/assets/stories/
+
+Do not touch Buffer yet.
+
+FIRST, perform a complete preflight audit of the November 2026 calendar.
+
+Validate:
+- every Post ID
+- exact dates
+- platforms/channels
+- final captions
+- destination links
+- content format
+- asset availability
+- carousel asset count
+- carousel order
+- Instagram feed sequence
+- Website Insight dependencies
+- duplicate posts
+- every `TBD` URL
+- missing Feed media
+- missing Story media
+- Story frame order
+- unsupported Story interactive elements
+
+
+For STORIES specifically:
+- read the `Stories Calendar` sheet;
+- match `NS01` through `NS21`;
+- verify exact frame count;
+- verify frame order;
+- verify Instagram Stories / Facebook Stories destination;
+- identify whether each Story requires a poll, question, link sticker or other native interaction;
+- if Buffer cannot support the required native interaction, report `MANUAL STORY ACTION REQUIRED`;
+- do not convert the Story into a Feed post;
+- do not silently remove interaction instructions.
+
+
+Then connect to Buffer and READ ONLY:
+- account timezone
+- connected channels and channel IDs
+- existing November queue/drafts
+- possible duplicates
+
+Return a PRE-FLIGHT REPORT with:
+
+READY:
+- Post ID
+- date
+- channel(s)
+- format
+- asset count
+- destination URL
+
+BLOCKED:
+- Post ID
+- exact blocking reason
+
+WARNINGS:
+- anything requiring review but not necessarily blocking
+
+DO NOT CREATE, EDIT, DELETE, SCHEDULE OR PUBLISH ANY BUFFER POST YET.
+
+Wait for my approval.
+
+After I say:
+`APPROVE BUFFER DRAFT CREATION`
+
+create Buffer DRAFTS only for READY posts.
+
+Rules:
+- use approved captions exactly;
+- attach media in filename order;
+- never invent missing information;
+- never replace a TBD link;
+- never break Instagram grid sequence;
+- never publish immediately;
+- never modify existing Buffer content unless explicitly approved.
+
+After draft creation:
+1. verify each returned Buffer post;
+2. save a report under `2026-11/reports/`;
+3. show created drafts, blocked posts, warnings and failures.
+
+Do not schedule until I explicitly say:
+`APPROVE SCHEDULING`
